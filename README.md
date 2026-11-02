@@ -30,7 +30,8 @@ Contributions welcome! Open a PR to add/update entries. Keep descriptions factua
 
 ## Table of Contents
 
-- [SaaS/Hosted Platforms](#saas-products)
+- [Sector Overview & Market Dynamics](#sector-overview--market-dynamics)
+- [SaaS/Hosted Platforms](#saashosted-platforms)
 
 - [Open-Source GitHub Projects](#open-source-github-projects)
 
@@ -39,6 +40,10 @@ Contributions welcome! Open a PR to add/update entries. Keep descriptions factua
 - [Disclaimer](#disclaimer)
 
 
+
+## Sector Overview & Market Dynamics
+
+The global Identity and Access Management (IAM) market is estimated at **$23 billion to $27 billion in 2025–2026** and is projected to expand at a compound annual growth rate (CAGR) of 12%–14%, reaching over $50 billion by 2032. The sector is **moderately concentrated** at the top tier—dominated by major enterprise tech giants and consolidated security suites (Microsoft Entra ID, Okta, Cisco Duo, Ping/ForgeRock) capturing the majority of global workforce directory spend—yet remains **fragmented across specialized niches** such as Customer Identity (CIAM), developer-first authentication APIs, Privileged Access Management (PAM), and machine/agentic identity orchestration where specialized and open-source innovators continue to gain strong adoption.
 
 ## SaaS/Hosted Platforms
 
