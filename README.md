@@ -42,67 +42,18 @@ Contributions welcome! Open a PR to add/update entries. Keep descriptions factua
 
 ## SaaS/Hosted Platforms
 
-
-
-- **[Atlassian Access](https://www.atlassian.com/)**  
-
-  SSO and security controls across Atlassian Cloud products; enforces SAML SSO, SCIM provisioning, and audit logs for Jira, Confluence, and Bitbucket users.
-
-
-
-- **[Okta](https://www.okta.com/)**  
-
-  The leading independent identity platform; Workforce Identity for employees and Customer Identity for external users, with SSO, MFA, lifecycle management, and governance across thousands of app integrations .
-
-
-
-- **[Microsoft Entra ID](https://www.microsoft.com/en-us/security/business/microsoft-entra)**  
-
-  Microsoft's cloud identity service with SSO, Conditional Access, MFA, and lifecycle workflows; deeply integrated with Microsoft 365 and Azure, with P1 included in many M365 plans .
-
-
-
-- **[Ping Identity](https://www.pingidentity.com/)**  
-
-  Enterprise identity platform (merged with ForgeRock) with PingOne for Customers and Workforce; AI-driven access decisions, fraud/risk protection, identity governance, and decentralized identity capabilities .
-
-
-
-- **[OneLogin](https://www.onelogin.com/)**  
-
-  Identity and access management platform (now part of One Identity) with SSO, MFA, and automated user provisioning.
-
-
-
-- **[JumpCloud](https://jumpcloud.com/)**  
-
-  Cloud directory platform combining SSO, device management, LDAP, and Directory-as-a-Service lifecycle management; positioned for small to mid-sized organizations .
-
-
-
-- **[CyberArk](https://www.cyberark.com/)**  
-
-  Identity security platform with privileged access management (PAM), identity governance, and secrets management; focused on protecting high-privilege accounts.
-
-
-
-- **[ForgeRock](https://www.forgerock.com/)**  
-
-  Identity platform (merged with Ping Identity) with comprehensive IAM, access management, and identity gateway capabilities; AI/ML-powered real-time access adaptation .
-
-
-
-- **[Auth0](https://auth0.com/)**  
-
-  Developer-focused identity platform for applications; B2B plans include Self-Service SSO and SCIM, with add-ons for enterprise connections and MFA.
-
-
-
-- **[Duo Security (Cisco)](https://duo.com/)**  
-
-  MFA and zero-trust access platform; provides phishing-resistant authentication, device trust, and adaptive access policies.
-
-
+| Product | Pricing | Free Tier Limit | Description |
+|---|---|---|---|
+| **[Atlassian Access (Guard)](https://www.atlassian.com/software/access)** | $4.00/user/month (Guard Standard) | 30-day free trial with full organization security and SSO features | SSO, SAML enforcement, SCIM provisioning, and centralized audit logging across Atlassian Cloud products (Jira, Confluence, Bitbucket). |
+| **[Okta](https://www.okta.com/)** | $2.00/user/month (SSO) / $3.00/user/month (Adaptive MFA) | 30-day free trial with full enterprise workforce capabilities | Leading independent enterprise identity platform with SSO, Adaptive MFA, Lifecycle Management, and universal directory across thousands of apps. |
+| **[Microsoft Entra ID](https://www.microsoft.com/en-us/security/business/microsoft-entra)** | $6.00/user/month (Entra ID P1) / $9.00/user/month (Entra ID P2) | Free plan: up to 50,000 MAU for core directory, SSO to 10 apps/user, and basic MFA; 30-day trial for P1/P2 | Enterprise cloud identity and access management service with Conditional Access, passwordless MFA, and deep Microsoft 365/Azure integration. |
+| **[Ping Identity](https://www.pingidentity.com/)** | $3.00/user/month (PingOne Workforce Essential, min 5,000 users) | 30-day free trial with up to 1,000 active identities and 5 sandbox environments | Enterprise hybrid and cloud IAM platform offering SSO, adaptive MFA, intelligent fraud/risk protection, and decentralized identity. |
+| **[OneLogin](https://www.onelogin.com/)** | $2.00/user/month (Advanced Directory & SSO) | 30-day free trial (no credit card required) | Comprehensive workforce IAM platform by One Identity featuring SSO, smart factor MFA, and automated user provisioning workflows. |
+| **[JumpCloud](https://jumpcloud.com/)** | $9.00/user/month (SSO Package) / $11.00/user/month (Core Directory) | Free forever for up to 10 users and 10 devices (includes 10 days of premium support) | Open directory platform combining cloud LDAP, Cloud RADIUS, cross-OS device management (MDM), and workforce SSO. |
+| **[CyberArk](https://www.cyberark.com/)** | ~$4.00–$5.00/user/month (CyberArk Identity / Workforce Password Management) | 30-day free trial with full workforce identity security capabilities | Identity security and Privileged Access Management (PAM) platform providing unified SSO, adaptive MFA, and lifecycle management for high-risk accounts. |
+| **[ForgeRock](https://www.forgerock.com/)** | ~$3.00/user/month (Workforce) / ~$35,000/year (PingOne/ForgeRock enterprise packages) | 30-day free trial through unified Ping Identity platform evaluation | Comprehensive digital identity platform (merged with Ping Identity) delivering AI-driven access governance, identity orchestration, and autonomous identity. |
+| **[Auth0](https://auth0.com/)** | $35.00/month (B2C Essentials, up to 1,000 MAU) / $130.00/month (B2B Essentials, up to 500 MAU) | Free forever for up to 7,500 monthly active users (MAU) with unlimited social logins and standard MFA | Developer-first customer & workforce identity platform offering extensible authentication APIs, universal login, and turnkey enterprise SSO connections. |
+| **[Duo Security (Cisco)](https://duo.com/)** | $3.00/user/month (Duo MFA) / $6.00/user/month (Duo Access) | Free forever for up to 10 users (includes Duo MFA, mobile app, and basic security policies); 30-day trial on paid tiers | Zero-trust authentication and access security platform providing phishing-resistant MFA, endpoint device posture checks, and adaptive access policies. |
 
 ## Open-Source GitHub Projects
 
