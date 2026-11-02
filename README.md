@@ -62,57 +62,52 @@ The global Identity and Access Management (IAM) market is estimated at **$23 bil
 
 ## Open-Source GitHub Projects
 
+Curated list of production-ready open-source Identity and Access Management platforms, sorted by GitHub stargazers count descending.
 
+- **[Keycloak](https://github.com/keycloak/keycloak)** [![GitHub stars](https://img.shields.io/github/stars/keycloak/keycloak?style=social&color=white)](https://github.com/keycloak/keycloak/stargazers)  
+  The most widely deployed open-source identity and access management server (Apache-2.0, CNCF incubating, backed by Red Hat). Delivers comprehensive **OIDC, OAuth 2.0, and SAML 2.0** support, LDAP/AD user federation, identity brokering, fine-grained authorization services, and **SCIM 2.0 server** capabilities.
 
-### Full IAM Platforms (Keycloak, Casdoor)
+- **[Authelia](https://github.com/authelia/authelia)** [![GitHub stars](https://img.shields.io/github/stars/authelia/authelia?style=social&color=white)](https://github.com/authelia/authelia/stargazers)  
+  Lightweight open-source authentication and authorization server (Apache-2.0, Go) acting as an identity companion for reverse proxies (Nginx, Traefik, Caddy, Envoy). Provides multi-factor authentication (TOTP, WebAuthn/FIDO2, Duo push) and OpenID Connect (OIDC) provider capabilities for self-hosted apps.
 
+- **[Authentik](https://github.com/goauthentik/authentik)** [![GitHub stars](https://img.shields.io/github/stars/goauthentik/authentik?style=social&color=white)](https://github.com/goauthentik/authentik/stargazers)  
+  An exceptionally flexible open-source identity provider (MIT core) with a visual stage-and-flow editor for custom login logic. Features an integrated forward-proxy provider to protect legacy apps without native authentication, alongside native OIDC, SAML, LDAP outpost, and RADIUS support.
 
+- **[Ory Hydra](https://github.com/ory/hydra)** [![GitHub stars](https://img.shields.io/github/stars/ory/hydra?style=social&color=white)](https://github.com/ory/hydra/stargazers)  
+  Hardened, OpenID Certified OAuth 2.0 and OpenID Connect provider (Apache-2.0, Go) built for cloud-native architectures. Headless and API-first, allowing teams to fully control user interaction and login screens while delegating standard crypto/token security.
 
-- **[Keycloak](https://github.com/keycloak/keycloak)**  
+- **[ZITADEL](https://github.com/zitadel/zitadel)** [![GitHub stars](https://img.shields.io/github/stars/zitadel/zitadel?style=social&color=white)](https://github.com/zitadel/zitadel/stargazers)  
+  Cloud-native identity infrastructure built specifically for multi-tenant B2B SaaS (AGPL-3.0, Go). Features turnkey organizations, delegated administration, audit trails, and support for OIDC, OAuth 2.1, SAML, and Passkeys.
 
-  The **most widely deployed open-source identity server** (Apache-2.0, ~37k GitHub stars, CNCF incubating, Red Hat-backed) . Features: **OIDC, OAuth 2.0, SAML 2.0**, LDAP/AD user federation, identity brokering, fine-grained authorization services, and **SCIM 2.0 server support (since 26.8)** . **Caveats**: Java application with significant tuning/upgrade/theming effort; **no official managed service** from the project—commercial support requires Red Hat subscription or third parties . **Best for enterprises wanting the most mature, auditor-recognized IAM foundation**—especially those already standardized on Red Hat or Java.
+- **[SuperTokens](https://github.com/supertokens/supertokens-core)** [![GitHub stars](https://img.shields.io/github/stars/supertokens/supertokens-core?style=social&color=white)](https://github.com/supertokens/supertokens-core/stargazers)  
+  Open-source developer-friendly alternative to Auth0 and Firebase Auth (Apache-2.0 core). Offers modular authentication architecture with recipes for session management, social login, passwordless login, MFA, and enterprise SSO/SAML integration.
 
+- **[Casdoor](https://github.com/casdoor/casdoor)** [![GitHub stars](https://img.shields.io/github/stars/casdoor/casdoor?style=social&color=white)](https://github.com/casdoor/casdoor/stargazers)  
+  Lightweight UI-first IAM platform built in Go and React (Apache-2.0) that offers the broadest protocol support in a single binary: OIDC, OAuth 2.0, SAML, CAS, LDAP server, RADIUS server, and SCIM. Includes built-in Casbin authorization and support for AI-agent OAuth 2.1/MCP.
 
+- **[Ory Kratos](https://github.com/ory/kratos)** [![GitHub stars](https://img.shields.io/github/stars/ory/kratos?style=social&color=white)](https://github.com/ory/kratos/stargazers)  
+  Cloud-native, API-first identity and user management system (Apache-2.0, Go). Implements core authentication, MFA/WebAuthn, registration, profile updates, account recovery, and verification workflows with clean headless APIs.
 
-- **[Casdoor](https://github.com/casdoor/casdoor)**  
+- **[Apereo CAS](https://github.com/apereo/cas)** [![GitHub stars](https://img.shields.io/github/stars/apereo/cas?style=social&color=white)](https://github.com/apereo/cas/stargazers)  
+  Enterprise multilingual Single Sign-On engine for web applications (Apache-2.0, Java). Supports Central Authentication Service (CAS) protocol, SAML 2.0, OAuth 2.0, OpenID Connect, multifactor authentication, and integration with varied directory stores.
 
-  The **broadest-protocol open-source IAM platform in a single Go binary** (Apache-2.0, ~14.5k GitHub stars) . Features: **OIDC, OAuth 2.0, SAML, CAS, LDAP server, RADIUS server, and SCIM**—so it can replace legacy LDAP or CAS servers rather than sit beside them ; **70+ social/enterprise identity providers**; **built-in Casbin authorization** for ACL/RBAC/ABAC; **MCP server and OAuth 2.1 for AI agents** (unique among open-source IAM) ; syncers for Keycloak, Okta, Entra ID, Google Workspace, and any SQL database . **Managed cloud**: Casdoor Cloud from $24/month (billed yearly) for a dedicated instance, no per-user fees . **Caveats**: smaller community than Keycloak; documentation lags features per user reports; no SOC 2/ISO 27001 reports yet . **Best for teams wanting maximum protocol coverage and a lightweight single binary**—especially those needing LDAP/RADIUS replacement or AI-agent auth.
+- **[Dex IdP](https://github.com/dexidp/dex)** [![GitHub stars](https://img.shields.io/github/stars/dexidp/dex?style=social&color=white)](https://github.com/dexidp/dex/stargazers)  
+  Identity service and federation broker using OpenID Connect (Apache-2.0, CNCF Sandbox, Go). Acts as a portal to other identity providers through connectors (SAML, LDAP, GitHub, Google, GitLab, Keystone) to provide OIDC authentication to downstream apps like Kubernetes.
 
+- **[Kanidm](https://github.com/kanidm/kanidm)** [![GitHub stars](https://img.shields.io/github/stars/kanidm/kanidm?style=social&color=white)](https://github.com/kanidm/kanidm/stargazers)  
+  Fast, modern identity management and directory service written in Rust (MPL-2.0). Serves as an alternative to OpenLDAP, 389ds, and FreeIPA with native support for OAuth 2.0, OIDC, RADIUS, and passwordless authentication via WebAuthn/Passkeys.
 
+- **[FreeIPA](https://github.com/freeipa/freeipa)** [![GitHub stars](https://img.shields.io/github/stars/freeipa/freeipa?style=social&color=white)](https://github.com/freeipa/freeipa/stargazers)  
+  Integrated security information management solution (GPL-3.0) combining 389 Directory Server (LDAP), MIT Kerberos, Dogtag Certificate System (PKI), NTP, and DNS. Provides centralized Linux/Unix identity, policy, and trust management.
 
-### Flexible Flow Engines (Authentik, ZITADEL)
+- **[WSO2 Identity Server](https://github.com/wso2/product-is)** [![GitHub stars](https://img.shields.io/github/stars/wso2/product-is?style=social&color=white)](https://github.com/wso2/product-is/stargazers)  
+  Enterprise-grade, API-driven IAM software (Apache-2.0, Java) providing single sign-on, identity federation, adaptive MFA, customer identity management (CIAM), and identity governance compliant with GDPR and open standards.
 
+- **[Evolveum midPoint](https://github.com/Evolveum/midpoint)** [![GitHub stars](https://img.shields.io/github/stars/Evolveum/midpoint?style=social&color=white)](https://github.com/Evolveum/midpoint/stargazers)  
+  The leading comprehensive open-source Identity Governance and Administration (IGA) platform (EUPL-1.2/Apache-2.0). Excels at user provisioning, automated lifecycle management, role catalog management, access requests, and compliance auditing.
 
-
-- **[Authentik](https://github.com/goauthentik/authentik)**  
-
-  The **most flexible sign-in flow engine** among open-source IAM platforms (MIT core, enterprise features under commercial license) . Features: **visual flow and stage editor** for custom authentication logic; **proxy provider** for adding SSO to apps with no login integration (Traefik, Caddy, Nginx, Envoy); OIDC, SAML, LDAP, and RADIUS outposts . **Caveats**: **no managed cloud** from the maintainers; enterprise features licensed per internal user ($5/user/month) . **Best for homelabs and self-hosters** wanting visual flow customization and proxy-based SSO—less suited for large enterprise governance.
-
-
-
-- **[ZITADEL](https://github.com/zitadel/zitadel)**  
-
-  A **Go platform built for multi-tenant B2B SaaS** (AGPL-3.0, ~15.3k GitHub stars) . Features: **organizations and delegated administration** built in; OIDC, SAML, LDAP identity provider; **managed cloud priced by daily active users** (free up to 100 DAU, Pro $100/month for 25,000) . **Caveats**: **AGPL-3.0 copyleft** may require legal review; **no LDAP or RADIUS server** capabilities (unlike Casdoor) . **Best for B2B SaaS companies** needing native multi-tenancy—not for teams needing to replace legacy LDAP infrastructure.
-
-
-
-### Additional Strong Open-Source Options
-
-
-
-- **Ory (Hydra, Kratos)** — Headless, API-first identity services (Apache-2.0); Hydra is an OpenID Certified OAuth 2.0 server . **Caveat**: **no admin UI or login pages** in open-source—you build all screens yourself; SAML lives in separate product Ory Polis . **Best for teams wanting API primitives** and willing to build UI.
-
-- **Apache Syncope** — Open-source IAM/IGA platform (Apache-2.0) with user/group/role management, automated provisioning workflows, RBAC, delegated administration, and **SAML 2.0/OIDC/SCIM support** . **Best for organizations needing IGA capabilities** (provisioning, access reviews) alongside IAM—less focused on SSO UX than Keycloak or Casdoor.
-
-- **midPoint (Evolveum)** — The **most feature-complete open-source IGA platform** (Apache-2.0); full provisioning, access reviews, role management, organizational structure, and RBAC . **Caveat**: steep learning curve; documentation solid but setup takes real time . **Best for IGA-focused deployments** needing SailPoint-equivalent governance—not a pure SSO replacement.
-
-- **WSO2 Identity Server** — Enterprise-grade open-source IAM (Apache-2.0); SSO, MFA, OAuth2/OIDC, SAML, identity federation, social login, RBAC, fine-grained authorization, and **GDPR/HIPAA compliance features** . **Best for enterprises wanting a mature, compliance-oriented IAM** with commercial support options—heavier than Casdoor or Authentik.
-
-
-
-**Frameworks for building custom systems**: For **enterprise IAM with the broadest community and audit recognition**, Keycloak . For **maximum protocol coverage (OIDC/SAML/CAS/LDAP/RADIUS/SCIM) in a single binary**, Casdoor . For **visual flow customization and proxy SSO**, Authentik . For **B2B SaaS multi-tenancy**, ZITADEL . For **IGA with provisioning and access reviews**, midPoint or Apache Syncope . **No open-source project matches the managed customer identity scale and AI-driven risk decisions** of Okta Customer Identity or Ping—those are commercial advantages .
-
-
+- **[Apache Syncope](https://github.com/apache/syncope)** [![GitHub stars](https://img.shields.io/github/stars/apache/syncope?style=social&color=white)](https://github.com/apache/syncope/stargazers)  
+  Open-source digital identity management system (Apache-2.0, Java) managing user, role, and organization data with automated provisioning, access certification, delegated administration, and SCIM 2.0 / SAML 2.0 / OIDC interfaces.
 
 ## How to Contribute
 
