@@ -1,32 +1,15 @@
-# Awesome-Identity-And-Access-Management
+# Awesome Identity and Access Management (IAM) [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
-## Top Identity and Access Management (IAM) Ecosystem
+> A curated list of top **Identity and Access Management (IAM)** solutions, Enterprise Single Sign-On (**SSO**), Identity Providers (**IdP**), Multi-Factor Authentication (**MFA**), Customer Identity (**CIAM**), Identity Governance (**IGA**), and production-proven open-source software.
 
+[![Tracked Projects](https://img.shields.io/badge/IAM%20Projects-25%2B-blue.svg)](#table-of-contents)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](#how-to-contribute)
+[![License: CC0-1.0](https://img.shields.io/badge/License-CC0%201.0-lightgrey.svg)](LICENSE)
+[![Last Updated](https://img.shields.io/badge/updated-November%202026-orange.svg)](#)
 
+Identity and Access Management (IAM) is foundational to Zero Trust security architectures and modern cloud-native systems. This guide indexes commercial enterprise identity platforms (SaaS/Hosted) and top open-source identity providers, comparing transparent pricing, free-tier limits, market scale, and core capabilities across Single Sign-On (SSO), SAML 2.0, OpenID Connect (OIDC), OAuth 2.1, SCIM user provisioning, and directory services.
 
-**Curated List of SaaS Products & Open-Source GitHub Projects**  
-
-*Focused on SSO, Identity Federation & Self-Hosted IAM Platforms*  
-
-**Last updated: November 2026**
-
-
-
-This repository tracks notable **SaaS platforms** and **open-source projects** for **Identity and Access Management (IAM)**. These tools enable organizations to centralize authentication, enforce multi-factor authentication, manage user lifecycles, and govern access to applications—providing a single identity plane across workforce, customer, and partner ecosystems.
-
-
-
-**Examples** include Atlassian Access, Okta, Microsoft Entra ID, Ping Identity, OneLogin, JumpCloud, CyberArk, ForgeRock, Auth0, and Duo Security (the category leaders).
-
-
-
-**Open-source emphasis**: IAM is a domain where open-source tooling is **exceptionally mature and production-proven**, with clear leaders for different scales and philosophies. **Keycloak** remains the most widely deployed open-source identity server—Apache-2.0 licensed, backed by Red Hat, with deep support for OIDC, OAuth 2.0, SAML, LDAP federation, and identity brokering . **Casdoor** offers the broadest protocol coverage in a single Go binary—OIDC, SAML, CAS, LDAP, RADIUS, and SCIM, plus built-in Casbin authorization for ACL/RBAC/ABAC . **Authentik** provides the most flexible sign-in flow engine for homelabs and proxy-based SSO . **ZITADEL** is purpose-built for multi-tenant B2B SaaS with organizations and delegated administration . The critical caveat: **commercial platforms differentiate on managed compliance, customer identity at scale, and AI-driven access decisions**—Okta's Customer Identity for external users and Ping's AI-powered fraud/risk protection remain commercial advantages that open-source requires assembly to match .
-
-
-
-Contributions welcome! Open a PR to add/update entries. Keep descriptions factual and link to official sites.
-
-
+---
 
 ## Table of Contents
 
